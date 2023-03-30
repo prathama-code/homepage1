@@ -1,0 +1,506 @@
+body{
+    margin:0px;
+    background-color: #f1f3f6;
+}
+/* HEADER */
+header{
+    height:60px;
+    /* border:5px solid black; */
+    background-color: #2874f0;
+    display: flex;
+}
+.flipkartlogo{
+    /* border:2px solid plum; */
+    height:45px;
+    width:8%;
+    margin-left:12%;
+    margin-top:0.8%;
+}
+.logoimg{
+    width:100%;
+    height:45%;
+    /* border:1px solid black; */
+}
+.logoimg>img{
+    height:100%;
+    width:100%;
+}
+.explorePlus{
+    height:50%;
+    width:100%;
+    /* border:2px solid red; */
+    display: flex;
+}
+#whiteExplore{
+    color:white;
+    font-weight: 500;
+}
+.explorePlus img{
+    height:40%;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+#yellowPlus{
+    color:#ffe500;
+    font-weight: 1000;
+}
+.searchBar{
+    height:40px;
+    width:30%;
+    border:1px solid gray;
+    margin-top: 0.7%;
+    margin-left: 1%;
+    display: flex;
+    background-color: white;
+    border-radius: 3px;
+    
+}
+.productSearch{
+    height:100%;
+    width:80%;
+    /* border:2px solid yellow; */
+    /* background-color: white; */
+}
+input{
+    height:100%;
+    width:100%;
+    border: none;
+}
+.searchBtn{
+    height:70%;
+    width:10%;
+    /* border:5px solid gray; */
+    margin-left: 5%;
+    margin-top: 1%;
+}
+.searchBtn >img{
+    height:100%;
+    width:70%;
+    margin-left: 10%;
+}
+.loginBtn{
+    height:30px;
+    /* border:2px solid green; */
+    width:10%;
+    margin-top: 1.2%;
+    margin-left: 2%;
+}
+.loginBtn>button{
+    height:100%;
+    width:100%;
+}
+.loginBtn>button{
+    color: #2874f0;
+    background-color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    border-radius: 2px;
+    border: none;
+}
+.Become-A-Sellor{
+    height:30px;
+    /* border:2px solid green; */
+    width:10%;
+    margin-top: 1.3%;
+    margin-left: 2%;
+    text-align: center;
+}
+.Become-A-Sellor>p{
+    color: #fff;
+    margin-left: 5%;
+    margin-top: 3%;
+    font-size: 17px;
+    font-weight: 700;
+}
+.more{
+    height:30px;
+    /* border:2px solid green; */
+    width:5%;
+    margin-top: 1.3%;
+    margin-left: 2%;
+    text-align: center;
+}
+select{
+    border: none;
+}
+.cart{
+    height:30px;
+    /* border:2px solid green; */
+    width:7%;
+    margin-top: 1.3%;
+    margin-left: 2%;
+    display: flex;
+}
+.cart .cartImg{
+    width:30%;
+    height:100%;
+    /* border:1px solid black; */
+}
+.cart .cartImg img{
+    height:80%;
+    width:100%;
+    margin-top: 2%;
+}
+.cart .cartName{
+    width:60%;
+    height:100%;
+    /* border:1px solid black; */
+    margin-left:4% ;
+}
+.cart .cartName p{
+    font-weight:700;
+    color: white;
+    font-size: 20px;
+    margin-top: 7%;
+    margin-left: 5%;
+}
+select{
+    background-color: #2874f0;
+    height: 100%;
+    width:100%;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    
+}
+.categories{
+    height:110px;
+    /* border:5px solid pink; */
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+     
+}
+.catBox{
+    width:7%;
+    height:70px;
+    /* border:2px solid red; */
+    margin-left: 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.3%;
+    
+}
+.catbox:hover{
+    transform:scale(1.1)
+}
+
+.categories .catBox .catImg{
+    width:80px;
+    height: 70px;
+    
+    
+}
+figcaption{
+    text-align: center;
+    font-weight: 700;
+    font-size:14px;
+}
+
+
+.slider{
+    height:250px;
+    /* border:5px solid green; */
+    margin-top: 2%;
+}
+.slider img{
+    height:250px;
+    width:100%;
+}
+.largerBanner{
+    display: inline-block;
+    /* border:5px solid red; */
+    margin-top: 2%;
+    width: 99%;
+    margin-bottom: 2%;
+}
+.subBanner{
+    /* border:5px solid green; */
+    height: 300px;
+    display: flex;
+    margin-top: 2%;
+    background-color: #fff;
+}
+.stickyImg{
+    height:300px;
+    width:20%;
+    /* border: 2px solid black; */
+    background-image: url('https://rukminim1.flixcart.com/fk-p-flap/278/278/image/7593e7b6640822c1.jpg?q=90');
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-position: bottom;
+    margin-left: 0.7%;
+}
+
+.stickyImg h2{
+    text-align: center;
+    margin-top: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+
+}
+.stickyImg button{
+    background-color: #2874f0;
+    height:35px;
+    width:30%;
+    margin-left:    33%;
+    color: white;
+    border-radius: 2px;
+    border: none;
+}
+.Img{
+    height:300px;
+    width:20%;
+    /* border: 2px solid black; */
+    margin-left: 0.7%;
+}
+.Img:hover{
+     transform: scale(1.1);
+}
+.Img .imgcont{
+    height:50%;
+    width:100%;
+    /* border:2px solid peachpuff; */
+}
+.imgcont img{
+    width:80%;
+    height:100%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.Img .infocont{
+    height:45%;
+    width:100%;
+    /* border:2px solid rgb(211, 185, 255); */
+    text-align: center;
+    margin-top: 20%;
+    
+}
+.infocont h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.infocont p{
+    color:green
+}
+.infocont span{
+    color: gray;
+}
+#banner2stickyimg{
+    background-image: url('https://rukminim1.flixcart.com/fk-p-flap/278/278/image/b84f1c22cce1a6a3.jpg?q=90');
+    height:300px;
+    width:20%;
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-position: bottom;
+    margin-left: 0.7%;
+}
+#banner3stickyimg{
+    background-image:url('https://rukminim1.flixcart.com/fk-p-flap/278/278/image/898b527fdf29b17a.jpg?q=90');
+    height:300px;
+    width:20%;
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-position: bottom;
+    margin-left: 0.7%;
+
+}
+#banner4stickyimg{
+    background-image: url('https://rukminim1.flixcart.com/fk-p-flap/278/278/image/31d46a8fd93eeedd.jpg?q=90');
+    height:300px;
+    width:20%;
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-position: bottom;
+    margin-left: 0.7%;
+}
+#banner5stickyimg{
+    background-image: url('https://rukminim1.flixcart.com/fk-p-flap/278/278/image/964e5530abdf3180.jpg?q=90');
+    height:300px;
+    width:20%;
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-position: bottom;
+    margin-left: 0.7%;
+}
+footer{
+    display: inline-block;
+    /* border:5px solid red; */
+    margin-top: 2%;
+    width: 99%;
+    background-color: #172337;
+}
+.footDiv{
+    /* border:5px solid green; */
+    height: 300px;
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    
+}
+.footcont{
+    color:#878787;
+    font-size: 12px;
+    font-weight: 400;
+    
+}
+.footDiv .footcont{
+    height:300px;
+    width:10%;
+    /* border:2px solid pink; */
+    margin-left: 6%;
+    
+}
+.footcont a{
+    text-decoration: none;
+    color:red ;
+    
+}
+.footcont li{
+    list-style-type: none;
+    line-height: 2;
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    
+}
+.footcont ul{
+    margin-left: -39px;
+} 
+.footdiv >#footspace{
+    height: 300px;
+    width: 18%;
+    /* border: 2px solid pink; */
+    margin-left: 6%;
+    
+}
+
+#footspace p{
+    list-style-type: none;
+    line-height: 2;
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    
+    
+}
+.lastCont{
+    /* border:3px solid yellow; */
+    height:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.5%;
+}
+.lastCont .logo-text{
+    /* border:2px solid red; */
+    height:30px;
+    width:11%;
+    margin: 0% 2%;
+    display: flex;
+}
+.lastlogo{
+    width:13%;
+    height:20px;
+    /* border:2px solid white; */
+}
+.lastText{
+    width:80%;
+    height:100%;
+    /* border:2px solid green; */
+    margin-left: 5%;
+    color: #fff;
+    font-size: 15px;
+}
+#expanded{
+    width:20%;
+    
+}
+#expanded p{
+    color:white;
+    margin-top: 2%;
+}
+.cards{
+    /* border:2px solid pink; */
+    height:50px;
+    display: flex;
+}
+.cards .allcards{
+    width:40%;
+    height:90%;
+    /* border:2px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.allcards{
+    margin-left:30% ;
+}
+li:hover{
+    text-decoration-line: underline;
+}
+@media screen and (max-width:1200px){
+    body{
+        background-color: aquamarine;
+    }
+    .more{
+        width:70px
+    }
+}
+@media screen and (max-width:1000px){
+    body{
+        background-color: #ffe500;
+    }
+    .flipkartLogo{
+        margin-left: 5%;
+    }
+    .searchBar{
+        margin-left: 5%;
+    }
+   
+    #expanded{
+        margin-bottom: 1%;
+    }
+}
+@media screen and (max-width:900px){
+    body{
+        background-color: greenyellow;
+    }
+    header{
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flipkartlogo{
+        margin-left: 1%;
+    }
+    .productSearch input{
+        margin-left: -5%;
+    }
+    .Become-A-Sellor{
+        margin-left: -1%;
+    }
+    .more select{
+        margin-left: -9%;
+    }
+    .cart{
+        margin-left: 1%;
+    }
+    
+    .lastCont{
+        margin-left: 1%;
+        height: 50px;
+    }
+    .logo-text{
+        margin-top: 0.5%;
+    
+    }
+    .lastLogo{
+        margin-right: 10%;
+    }
+}
